@@ -1,0 +1,25 @@
+//MSG_ACCOUNT_LOGIN_REQUEST_C2S
+message CMsgAccountLoginRequest
+{
+	required string account				= 1; 
+}
+
+
+//MSG_ACCOUNT_LOGIN_RESPONSE_S2C
+message CMsgAccountLoginResponse
+{
+	required int64 accountid			= 1;
+}
+
+//MSG_ACCOUNT_REGIST_REQUEST_C2S
+message CMsgAccountRegistRequest
+{
+	required string account 			= 1;
+}
+
+//MSG_ACCOUNT_REGIST_RESPONSE_S2C
+message CMsgAccountRegistResponse
+{
+	required int64 accountid			= 1;
+}
+
